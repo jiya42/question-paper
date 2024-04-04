@@ -11,7 +11,7 @@ The core logic of HelpEd revolves around the natural language processing capabil
 To get started with HelpEd, follow these steps:
 
 1. Clone the HelpEd repository to your local machine.
-2. Install the required dependencies (see Dependencies section).
+2. Install the required dependencies.
 3. Run the application using Python.
 4. Access the HelpEd web interface through your browser.
 5. Upload your question papers and receive personalized insights for exam preparation.
