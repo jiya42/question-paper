@@ -31,18 +31,4 @@ HelpEd is built using the following technologies:
 - **GeminiAPI**: Powerful natural language processing capabilities are leveraged from GeminiAPI for content analysis.
 - **Streamlit**: Streamlit is used to create a user-friendly web interface for HelpEd.
 
-## Dependencies
-
-Ensure you have the following dependencies installed:
-
-- Python (3.6+)
-- GeminiAPI
-- Streamlit
-
-You can install the dependencies using pip:
-
-```bash
-pip install geminiapi streamlit
-```
-
 ---
