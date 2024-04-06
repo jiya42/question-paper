@@ -1,7 +1,7 @@
 import os
 
 # Replace "YOUR_API_KEY" with your actual API key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyACHba0Frja_dsWH1c6AMx1yUxYhA03LH0"
+os.environ["GOOGLE_API_KEY"] = "your-api-key"
 
 import streamlit as st
 from PyPDF2 import PdfReader #library to read pdf files
@@ -15,23 +15,12 @@ import google.generativeai as genai
 
  #to chain the prompts
 from langchain.prompts import PromptTemplate #to create prompt templates
-#from dotenv import load_dotenv
 
 
 
-
-
-#response = model.generate_content("What is the meaning of life?")
-#print(response.text)
-
-#load_dotenv()
 
 genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
 
-
-# Now proceed with deserialization
-# For example:
-# result = genai.deserialize_from_pickle(pickle_file)
 
 
 def get_pdf_text(pdf_docs):
